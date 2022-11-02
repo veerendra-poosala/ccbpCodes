@@ -1,0 +1,10 @@
+#ConvertingStringToList
+
+given_line = input()
+
+list_a = []
+#print(id(list_a))
+for char in given_line:
+    list_a += char
+    #print(id(list_a))
+print(list_a)
